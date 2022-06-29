@@ -5,7 +5,7 @@ function DisplayProfile({ data }) {
     <div className="">
       <div className="container">
         <div className="card p- flex justify-center items-center">
-          <div className=" p-4 shadow-lg rounded-lg">
+          <div className=" p-4 shadow-lg rounded-lg  bg-yellow-700">
             <div className="image object-center ">
               <img src={data.avatar_url} className="rounded  " width="155" />
             </div>
